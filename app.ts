@@ -1,4 +1,5 @@
 import express from 'express';
+import cors from "cors"
 
 const app = express()
 
@@ -13,6 +14,7 @@ app.get('/getDailyJoke', (request, response) => {
         author: "ME!",
      })
 })
+
 app.listen(3000, () => {
     console.log(`Server is Listening on 3000`)
 }) 
