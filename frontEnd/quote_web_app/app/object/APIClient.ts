@@ -11,7 +11,7 @@ export function getQuoteFromSever(){
             return resolve(result);
         })
         .catch((error)=>{
-            alert("Womp Womp")
+            alert("Womp Womp Sever is down sory 👉👈")
             reject()
         })
     })
